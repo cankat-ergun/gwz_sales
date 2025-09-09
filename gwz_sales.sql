@@ -16,3 +16,4 @@ GROUP BY
 
 ORDER BY
     date_date; -- Tarihe göre sıralı getir (kronolojik görünüm)
+-- Test comment to see if file changes
