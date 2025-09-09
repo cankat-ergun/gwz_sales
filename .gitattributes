@@ -1,0 +1,12 @@
+# Normalize line endings for all text files (avoids Windows vs Mac vs Linux issues)
+* text=auto
+
+# Treat SQL files as text
+*.sql text
+
+# Treat CSVs as text too
+*.csv text
+
+# Optional: If you plan to version really large CSVs (>100 MB), use Git LFS
+# Uncomment this line if you enable Git LFS later
+# *.csv filter=lfs diff=lfs merge=lfs -text
